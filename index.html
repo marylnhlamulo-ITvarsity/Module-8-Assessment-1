@@ -25,10 +25,10 @@
                 var systemUsername = "Bond";
                 var systemPassword = "007";   
                 
-                if(username == systemUsername && password){
-                    document.getElementById("message").innerHTML = "Correct. Logging in information";
-                } else {
-                    document.getElementById("message").innerHTML = "Username or password are incorrect";
+                if(username == systemUsername && systemPassword){
+                    document.getElementById("message").innerHTML = ("Correct. Logging you in...");
+                }
+                else {document.getElementById("message").innerHTML = ("Username or password are incorrect");
                 }
             }
             
